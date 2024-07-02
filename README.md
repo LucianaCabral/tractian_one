@@ -12,11 +12,10 @@ As principais camadas são:
    das empresas.
    Utiliza o padrão Providerpara gerenciar o estado da aplicação.
 ## Screenhots
-<video width="320" height="240" controls>
-  <source src="screens/initial_page.webm" type="video/mp4">
- </video>
 
-<img src = "screens/tela_inicial.png" width ="200" height="480"> 
+[Link do video](screens/tela_inicial.webm)
+
+<img src = "screens/Screenshot_tela_inicial.png" width ="200" height="480"> 
 
 ## Considerações
 Posteriormente será implementados os testes unitários, goldens testes e as próximas telas;
