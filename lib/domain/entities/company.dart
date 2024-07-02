@@ -3,5 +3,5 @@ class Company {
   final String name;
   final String? parentId;
 
-  Company(this.parentId, {required this.id, required this.name});
+  Company({required this.id, required this.name, this.parentId});
 }
