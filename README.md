@@ -13,7 +13,7 @@ As principais camadas são:
    Utiliza o padrão Providerpara gerenciar o estado da aplicação.
 ## Screenhots
 
-[Link do video](screens/tela_inicial.webm)
+[Link do Vídeo](https://github.com/LucianaCabral/tractian_one/assets/63366380/31004e04-587c-4e87-a291-9266facbe080)
 
 <img src = "screens/Screenshot_tela_inicial.png" width ="200" height="480"> 
 
