@@ -13,9 +13,11 @@ As principais camadas são:
    Utiliza o padrão Providerpara gerenciar o estado da aplicação.
 ## Screenhots
 
+[Screen_recording_tractian.webm](https://github.com/LucianaCabral/tractian_one/assets/63366380/8bcbfa4c-c59e-4838-b397-504d178f1c5b)
+
 [Link do video](screens/tela_inicial.webm)
 
 <img src = "screens/Screenshot_tela_inicial.png" width ="200" height="480"> 
 
-## Considerações(A serem implementadas)
+## Considerações (A serem implementadas)
 Posteriormente será implementados os testes unitários, goldens testes e as próximas telas., modularização;
