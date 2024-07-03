@@ -17,5 +17,5 @@ As principais camadas são:
 
 <img src = "screens/Screenshot_tela_inicial.png" width ="200" height="480"> 
 
-## Considerações
-Posteriormente será implementados os testes unitários, goldens testes e as próximas telas;
+## Considerações(A serem implementadas)
+Posteriormente será implementados os testes unitários, goldens testes e as próximas telas., modularização;
