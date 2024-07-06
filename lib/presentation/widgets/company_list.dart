@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../../domain/entities/company.dart';
 
 class CompanyList extends StatelessWidget {
@@ -14,11 +15,14 @@ class CompanyList extends StatelessWidget {
         final company = companies[index];
         return Card(
           elevation: 4,
-            color: Colors.blue,
+          color: Colors.blue,
           margin: const EdgeInsets.all(8),
           child: ListTile(
             leading: const Icon(Icons.business, color: Colors.white),
-            title: Text(company.name),
+            title: Text(
+              company.name,
+              style: const TextStyle(color: Colors.white),
+            ),
           ),
         );
       },
