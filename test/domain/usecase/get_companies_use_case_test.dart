@@ -4,7 +4,7 @@ import 'package:tractian_challenge_one/domain/repository/company_repository.dart
 import 'package:tractian_challenge_one/domain/usecase/get_companies_use_case.dart';
 
 import '../utils/class_mock.dart';
-import '../utils/stubs.dart';
+import '../../stubs.dart';
 
 void main() {
   late CompanyRepository companyRepository;
