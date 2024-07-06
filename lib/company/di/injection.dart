@@ -1,8 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
-import 'package:tractian_challenge_one/data/mapper/company_mapper.dart';
-import 'package:tractian_challenge_one/data/mapper/company_mapper_impl.dart';
+import '../data/mapper/company_mapper.dart';
+import '../data/mapper/company_mapper_impl.dart';
 import '../data/repository/company_repository_impl.dart';
 import '../data/service/company_service.dart';
 import '../data/source/company_remote_dataSource.dart';

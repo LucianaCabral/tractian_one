@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tractian_challenge_one/di/injection.dart';
-import 'package:tractian_challenge_one/presentation/pages/company_list_page.dart';
-import 'package:tractian_challenge_one/presentation/provider/company_provider.dart';
+
+import 'company/di/injection.dart';
+import 'company/presentation/pages/company_list_page.dart';
+import 'company/presentation/provider/company_provider.dart';
 
 void main() {
   setupDependencies();

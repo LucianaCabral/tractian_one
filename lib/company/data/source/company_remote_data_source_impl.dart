@@ -1,5 +1,4 @@
-import 'package:tractian_challenge_one/domain/entities/company.dart';
-
+import '../../domain/entities/company.dart';
 import '../mapper/company_mapper.dart';
 import '../service/company_service.dart';
 import 'company_remote_dataSource.dart';
