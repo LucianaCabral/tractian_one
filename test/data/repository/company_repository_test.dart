@@ -4,7 +4,7 @@ import 'package:tractian_challenge_one/data/repository/company_repository_impl.d
 import 'package:tractian_challenge_one/data/source/company_remote_dataSource.dart';
 
 import '../../domain/utils/class_mock.dart';
-import '../../domain/utils/stubs.dart';
+import '../../stubs.dart';
 void main() {
   group('CompanyRepositoryImpl', () {
     late CompanyRepositoryImpl companyRepository;
