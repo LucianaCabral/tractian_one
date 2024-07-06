@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tractian_challenge_one/presentation/resources/app_strings.dart';
 import '../provider/company_provider.dart';
+import '../resources/app_strings.dart';
 import '../widgets/company_list.dart';
 
 class CompanyListPage extends StatelessWidget {

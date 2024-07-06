@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:tractian_challenge_one/data/repository/company_repository_impl.dart';
-import 'package:tractian_challenge_one/data/source/company_remote_dataSource.dart';
+import 'package:tractian_challenge_one/company/data/repository/company_repository_impl.dart';
+import 'package:tractian_challenge_one/company/data/source/company_remote_dataSource.dart';
 
 import '../../domain/utils/class_mock.dart';
 import '../../stubs.dart';

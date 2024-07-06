@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
-import 'package:tractian_challenge_one/domain/entities/company.dart';
-import 'package:tractian_challenge_one/presentation/widgets/company_list.dart';
+import 'package:tractian_challenge_one/company/domain/entities/company.dart';
+import 'package:tractian_challenge_one/company/presentation/widgets/company_list.dart';
 
 import '../../stubs.dart';
 
