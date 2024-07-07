@@ -4,8 +4,8 @@ import '../provider/company_provider.dart';
 import '../resources/app_strings.dart';
 import '../widgets/company_list.dart';
 
-class CompanyListPage extends StatelessWidget {
-  const CompanyListPage({super.key});
+class DashboardPage extends StatelessWidget {
+  const DashboardPage({super.key});
 
   @override
   Widget build(BuildContext context) {

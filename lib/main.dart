@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'features/company/di/injection.dart';
-import 'features/company/presentation/pages/company_list_page.dart';
-import 'features/company/presentation/provider/company_provider.dart';
+import 'features/dashboard/di/injection.dart';
+import 'features/dashboard/presentation/pages/dashboard_page.dart';
+import 'features/dashboard/presentation/provider/company_provider.dart';
 
 void main() {
   setupDependencies();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const CompanyListPage(),
+        home: const DashboardPage(),
       ),
     );
   }
