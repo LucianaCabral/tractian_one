@@ -1,4 +1,4 @@
-import 'package:tractian_challenge_one/company/domain/entities/company.dart';
+import 'package:tractian_challenge_one/features/dashboard/domain/entities/company.dart';
 
 final List<Company> companyMock = [
   Company(id: "1", name: "Jaguar"),
