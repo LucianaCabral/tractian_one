@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+import 'core/core_module.dart';
+import 'features/dashboard/presentation/provider/company_provider.dart';
 import 'package:provider/provider.dart';
 
-import 'features/dashboard/di/injection.dart';
-import 'features/dashboard/presentation/pages/dashboard_page.dart';
-import 'features/dashboard/presentation/provider/company_provider.dart';
-
 void main() {
-  setupDependencies();
-  runApp(MyApp());
+  runApp(
+    ModularApp(
+      module: CoreModule(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -15,16 +18,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => getIt<CompanyProvider>()),
-      ],
-      child: MaterialApp(
+    return ChangeNotifierProvider(
+      create: (context) => Modular.get<CompanyProvider>(),
+      child: MaterialApp.router(
         title: 'Company List',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const DashboardPage(),
+        routeInformationParser: Modular.routeInformationParser,
+        routerDelegate: Modular.routerDelegate,
       ),
     );
   }
